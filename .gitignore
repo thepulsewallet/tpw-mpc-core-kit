@@ -1,0 +1,12 @@
+node_modules/*
+package-lock.json
+.env
+tiny-encrypt.node
+build/*
+dist/
+.DS_Store
+**/.DS_Store
+/.idea
+.yarn/
+.pnp.cjs
+.pnp.loader.mjs
