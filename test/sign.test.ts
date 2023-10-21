@@ -4,7 +4,7 @@ import Encryptor from '../src/enc/encryptor'
 import SignerP1 from '../src/sign/signer-p1'
 import SignerP2 from '../src/sign/signer-p2'
 import {TPCEcdsaSign} from "@safeheron/two-party-ecdsa-js";
-import BN from "bn.js";
+import BN from 'bn.js';
 import {verifySig} from "../src/sign/verify";
 import assert from "assert";
 
@@ -52,7 +52,7 @@ const keyshare2 = '' +
     '    "cypher_x1": "337fa26568322b32e9b50eb5195c16121279ae7c323034753278849af00076ee3564c6af89c2a01544da87b7e5e1741e302cfc9e9892f547ea089afdaf2c0beac9a1aa054905bcd79ce073171c6a7d7ef32b53ecaa06b592c824ca5848dfa293da78994d1b0bc1df187a3913e12e06151f74eebdc7134dde0e808c298039839cbe1b3fb4be78ec8317f4edb709a278be6903d14e9ee24c2871e27b3249c268f8e082ee3b4d8424fa2f4391b6978d074294762c517b373826dc227b193a2a040fb296b0ba0e3deb87ad12322eba95cee9c592ff21ed8e59f53beba7a62bc74c56e67b0451688a027ecea0ad64b68a9a4191491736d4f7eec0703c9ebe2e95245ed071458ba151fe77fcb7e14b3cb16851f2447209be999547059279c81d23c07457ee8d95571765276601c82a73638e72d18b9d0a26d766ef3fafb40269d9f199c29c51183d2482e2a4ea98cb7a62453a63762df69dba01b8bf221ddea7bf67e61f2ab3e4fafaad1aa3269986abe93e14f29b6778f81701171f935abe69af5290a9977327b3f376bdb3629a4d14d75c37aa3fcd6033416f58430e5d69f35f7c9824aea81aa1dcb0c801ade5733fb6850b35026e02630ed47bdf656423eadf3cf535cc90c69a5d6bb04ab5178f3d70cb212aec7e95227fa828ac830729ce33199b09a292ad6f1180af44dab886fc360abf01bc7e552244c311e8bf5c22af0e332f"\n' +
     '}'
 
-const testAddress = '0x731b2df5aef3ab37d0221133a00873578a49c2d7'
+const testAddress = '0x9b936bc437dab3779e03d08b7f5f2249d7e54fca'
 
 describe('mpcSign', ()=>{
     test('Sign', async()=>{

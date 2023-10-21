@@ -129,7 +129,6 @@ export namespace BasicJsonObject {
         )
     }
 
-    /*****************     JsonObject_PailPub <==> PailPub    ******************/
     export interface JsonObject_PailPub {
         n?: string,
         g?: string,
@@ -145,7 +144,6 @@ export namespace BasicJsonObject {
         return new PailPubKey(new BN(obj.n, 16), new BN(obj.g, 16))
     }
 
-    /*****************     JsonObject_PailProof <==> PailProof    ******************/
     export interface JsonObject_PailProof {
         yNArr?: string[],
     }
